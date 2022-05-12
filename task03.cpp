@@ -28,9 +28,10 @@ void sorter :: initialize(){
 	cout<<"Enter the numbers of array : ";cin>>number;
 	array = new int[size];
 
-	for(int i=2;i<size;i++){
-		cin>> array[i];
-	}
+	for(int i=0;i<size;i++){
+		random = rand() % number + 0;
+	    	array[i] = random;
+	  }
 }
 
 void sorter :: printer(){
